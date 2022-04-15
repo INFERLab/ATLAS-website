@@ -1,0 +1,10 @@
+---
+title: "Community-based Responsible Autonomous Infrastructure Systems"
+---
+
+The impending rise of autonomous technologies will have a profound impact on society. We are at a critical juncture where the choices and investments made to integrate these technologies into our lives can either help create an equitable, innovative and economically sustainable future or will exacerbate inequitable distribution of resources, knowledge and power in society, infringe on privacy and introduce biases against underrepresented populations. Nowhere is the impact of automation more salient than in civil infrastructure systems (e.g., transportation assets and buildings), which are the foundation of our society, provide the basic public services to the communities they serve, and play a critical role in the distribution and usage of energy, goods and mobility resources. To realize the full potential of autonomous technologies in infrastructure systems, and ensure their wide adoption and acceptance, we need to address the key societal challenge of aligning them with human values and principles.
+
+Our initiative aims to catalyze a fundamental shift towards human- and community-centric approaches for the design, development, deployment and operation of autonomous infrastructure systems that are responsible and accountable to the community that they serve.
+
+![](figs/city-hands.png){fig-align="center" fig-alt="Community-based solutions"}
+
