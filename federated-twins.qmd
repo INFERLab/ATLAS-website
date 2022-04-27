@@ -1,0 +1,13 @@
+---
+title: "Federated, Community-Owned/Authored Models of Infrastructure Assets"
+---
+
+![](figs/federated-twins.png)
+
+To be able to support autonomous technologies/infrastructure systems/communities, there is a need to have a digital twin of them.  Such digital twin can contain not just information about physical assets, but also about their usages (the context under which such systems get used)  as well as community preferences.  As it is expected that several things will be uncertain, the digital twin will also include uncertainty modeling to support not only identification of current operational improvements, but also projection to the future to enable predictive capabilities and prognosis.  Hence, such a digital twin will serve as the core repository of information about the autonomous infrastructure systems.
+
+While there are many digital twin efforts in many domains, depending on the domain, the modeling paradigm and what is referred to as digital twin is different.  It is also not clear how privacy and equity concerns are embedded in the current digital twin modeling efforts.  
+
+It is expected that it would be impossible to have a single digital twin to support a variety of usages and context.  Hence, there is a need for federated digital twins.  Such federated architecture would also allow privacy preservation and equity ensurance while supporting a variety of decision-making.  It is also important to develop bias-free or bias-aware preprocessing and data fusion techniques to enable responsible autonomy while supporting transparency and trust.
+
+
