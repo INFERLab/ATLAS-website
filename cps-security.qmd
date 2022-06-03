@@ -8,3 +8,8 @@ Autonomous control and operation techniques augmented by machine learning method
 
 ATLAS researchers have been exploring research questions related to cyber-physical security of water-energy synergy systems and new techniques for proactive protection of data and models used for water-energy system operations. One major branch is to develop data collection techniques that can protect the operational data and privacy associated with the behavioral data used for training the adaptive control strategies. One example project is the “Privacy Preserving Computational Cameras” that allow flexible filtering of video information for protecting privacy of operators and infrastructure service users (e.g., building occupants). Another branch is the development of novel machine learning models that can protect the raw data used for machine learning. An example is the development and validation of new federated learning algorithms for learning control strategies from distributed sensor networks and mobile devices while protecting the raw data. A number of projects also provide systems operation data for carrying out vulnerability analysis and predictive protection against attacks based on the identified vulnerabilities of operation processes.
 
+## Associated Projects
+
+### Privacy-preserving Computational Cameras
+
+### Energy Efficient Connected Community of Buildings

@@ -14,4 +14,6 @@ It is expected that it would be impossible to have a single digital twin to supp
 
 ### Autonomous Food Delivery Impacts on Traffic and Sustainability
 
+### Spatio-temporal Stream Data Modeling and Unification
 
+### A digital twin virtual testbed for sustainable and equitable autonomous food delivery

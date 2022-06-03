@@ -10,4 +10,9 @@ The US Department of Energy (DOE) estimates that unlocking this resource could r
 
 As this shift towards more responsive demand and more grid-enabled buildings continues, it is important to ask ourselves if and how these autonomous technologies are taking into consideration the values of the communities that they serve when making decisions on their behalf. To start, as decision-making moves from centralized resources to distributed ones, it is important to respect end-user privacy. Similarly, security and safety concerns become more pertinent when the control of loads is passed on to the hands of algorithms (both because they can be abused by malicious actors, but also because it may lead to unintended consequences). Less evident but just as important are equity and justice considerations in this space. Without properly aligning the incentives for these contracts between aggregators and resource owners, there is the risk of ignoring the impacts and opportunities for large portions of the community. As an example, if only homeowners with smart thermostats can participate in this market, we may be distributing the rewards unevenly across the community when we could have used excess capacity to cool low-income homes that are more sensitive to energy costs.
 
+## Associated Mini-Projects
 
+
+### Distributed Control of Energy Resources
+
+### Energy Efficient Connected Community of Buildings
