@@ -10,4 +10,8 @@ While there are many digital twin efforts in many domains, depending on the doma
 
 It is expected that it would be impossible to have a single digital twin to support a variety of usages and context.  Hence, there is a need for federated digital twins.  Such federated architecture would also allow privacy preservation and equity ensurance while supporting a variety of decision-making.  It is also important to develop bias-free or bias-aware preprocessing and data fusion techniques to enable responsible autonomy while supporting transparency and trust.
 
+## Associated Mini-Projects
+
+### Autonomous Food Delivery Impacts on Traffic and Sustainability
+
 
