@@ -1,0 +1,16 @@
+---
+title: "Cyber-Physical Social Systems"
+---
+
+![](figs/federated-twins.png)
+
+Lorem ipsum...
+
+## Associated Mini-Projects
+
+### Equitable Ridepooling using Autonomous Electric Vehicle Fleets with Community-Driven Stops 
+
+### Self-Diagnosis and Predictive Control of Coupling Human-Building Systems with Partial and Noisy Human-Building Interaction Logs in Building Automation Systems
+
+### Autonomous Taxis: Understanding and Improving Sustainability & Equity
+

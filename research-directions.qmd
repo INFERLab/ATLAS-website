@@ -1,10 +1,14 @@
 ---
 title: "Research Directions"
 ---
-## [Responsible Virtual Power Plants](responsible-power.html)
+Our vision of communities served by and having ownership of responsible autonomous infrastructure systems, requires that we surmount a number of technical, governance, financial and and policy challenges. To start, we are paving the way by addressing research challenges in four distinct areas: 
 
-## [Federated, Community-Owned/Authored Models of Infrastructure Assets](federated-twins.html)
+### [Cyber-Physical Social Systems: Bringing the Community into the Control Loop](cpss.html)
 
-## [Cyber, Physical, and Social (CPS) Security for Infrastructure Systems](cps-security.html)
+### [Cyber, Physical, and Social (CPS) Security for Infrastructure Systems](cps-security.html)
+
+### [Responsible Virtual Power Plants](responsible-power.html)
+
+### [Federated, Community-Owned/Authored Models of Infrastructure Assets](federated-twins.html)
 
 
