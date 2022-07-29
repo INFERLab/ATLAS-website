@@ -1,0 +1,98 @@
+---
+title: "Chapter 8: Bayesian Networks as Classifiers"
+author: "Mario Bergés"
+format:
+  revealjs:
+    theme: dark
+    logo: inferlab.png
+    footer: "INFERLab Summer of Learning 2022"
+    incremental: false 
+    reference-location: margin
+---
+
+## Table of Contents
+
+- Introduction to the problem
+- Naïve Bayes Classifiers
+- Evaluation of Classifiers
+- Extensions of Naïve Bayes Classifiers
+- Classification (Decision) Trees
+- Exercises
+
+## Introduction to the problem
+
+- Let ${F_1, \dots , F_m}$ be a set of features and $C$ a class variable.
+- A classifier is a function $f: F_1 \times \dots \times F_m \mapsto C$
+- In the book, they consider only discrete $F_i$ variables.
+- If you have a Bayesian Network (BN) with a single hypothesis variable, you have a classifier.
+
+## This chapter is about learning/calibrating BN Classifiers 
+
+- This chapter: how do we "learn" a classifier $f$ from a dataset $\mathcal{D}$?^[Where $\mathcal{D}$ is a set $\{F_{1}^{i}, \dots, F_{m}^{i}, C^i\} \forall i \in \{1, \dots, N\}$]
+- So, how would you do it? (and how different is it from what we learned in Chapter 6?)
+
+## The trivial answer: Look-up Tables
+
+- What if you just used the full dataset $\mathcal{D}$
+
+. . .
+
+| Beer | Sleep | Shoes | Headeache |
+|------|-------|-------|:---------:|
+| Y | N | Y | Y |
+| N | Y | Y | Y |
+| N | N | N | N |
+| Y | Y | N | Y |
+| Y | Y | Y | Y |
+| N | Y | N | N |
+
+: Will I get a headeache?
+
+## Naïve Bayes Classifiers
+
+- Consider the simplified poker game from Chapter 3:
+
+. . .
+
+![](fig8-1.png){.absolute width="500"}
+
+## Naïve Bayes Classifiers
+
+- Using the PC algorithm, and assumoing OH is hidden, we get:
+
+. . .
+
+![](fig8-2.png){.absolute width="350"}
+
+- But how "compact" is this representation? i.e. how many parameters do we need to estimate?
+
+## Naïve Bayes Classifiers: Assuming a Simpler Structure
+
+- So, what if we assume that given the BH, the other features are independent?
+
+- Then: $P(BH|MH,FC,SC) = \frac{P(BH) P(MH|BH) P(FC|BH) P(SC|BH)}{P(MH,FC,SC)}$
+
+![](fig8-3.png){.absolute width="350"}
+
+## How do I "learn" this, again?
+
+- If $\mathcal{D}$ is "complete" (no missing values): maximum likelihood (i.e., in this case, counting)
+- Otherwise (i.e., there are missing values) then EM (or disregard records that have missing values)
+
+. . .
+
+- We'll see an example in action during the Exercises
+
+## What if the dataset does not support the full parameter space?
+
+- You use tricks:
+  - Simulate: virtual records
+  - Give all parameters a small positive value
+
+## Evaluating NB Classifiers
+
+![](tab8-1.png){.absolute left=10 height="500"}
+![](tab8-2.png){.absolute left=400 height="150"} 
+![](tab8-3.png){.absolute left=400 top=270 height="150"}
+![](tab8-4.png){.absolute left=400 top=440 height="150"}
+
